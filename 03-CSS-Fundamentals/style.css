@@ -70,11 +70,11 @@ li {
 }
 
 .main-header {
-  background-color: #cfcfcf;
+  background-color: #f7f7f7;
 }
 
 aside {
-  background-color: #cfcfcf;
+  background-color: #f7f7f7;
   border-top: 5px solid #1098ad;
   border-bottom: 5px solid #1098ad;
 }
@@ -91,6 +91,29 @@ li:nth-child(even) {
   /* color: red; */
 }
 
+/* Misconcention: this wont work */
 article p:first-child {
   /* color: red; */
+}
+
+/* Styling Links */
+/* Links are always styled in this order LVHA */
+a:link {
+  color: #1098ad;
+  text-decoration: none;
+}
+
+a:visited {
+  color: #1098ad;
+}
+
+a:hover {
+  color: orangered;
+  font-weight: bold;
+  text-decoration: underline orangered;
+}
+
+a:active {
+  background-color: black;
+  font-style: italic;
 }
